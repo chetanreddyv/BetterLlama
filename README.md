@@ -1,5 +1,5 @@
 # BetterLlama
-BetterLlama distills LLaMA 3.1 into a fast, lightweight local LLM. Fine-tuned on synthetic daily-task data and enhanced with a smart prompt layer that refines queries, it delivers secure, optimized outputs while cutting costs and eliminating expensive monthly GenAI subscriptions.
+BetterLlama distills LLaMA 3.2 into a fast, lightweight local LLM. Fine-tuned on synthetic daily-task data and enhanced with a smart prompt layer that refines queries, it delivers secure, optimized outputs while cutting costs and eliminating expensive monthly GenAI subscriptions.
 
 **BetterLlama: A Secure, Efficient, and Cost-Effective Local LLM**
 
@@ -8,7 +8,7 @@ BetterLlama transforms the LLaMA 3.1 language model into a fast, lightweight, an
 ### Key Components
 
 1. **Knowledge Distillation**  
-   - **Objective:** Compress the original LLaMA 3.1 model into a smaller, more efficient version.  
+   - **Objective:** Compress the original LLaMA 3.2 model into a smaller, more efficient version.  
    - **Outcome:** A lightweight model that operates effectively on local hardware, significantly reducing computational demands and associated costs.
 
 2. **Fine-Tuning on Synthetic Data**  

@@ -21,14 +21,15 @@ BetterLlama transforms the LLaMA 3.2 language model into a fast, lightweight, an
 
 ### Benefits
 
+- **Optimized Performance:**  
+  The integration of knowledge distillation and fine-tuning ensures that the model maintains high-quality performance, even with a smaller footprint. The prompting layer further refines the output, delivering better and more context-aware results.
+  
 - **Enhanced Security:**  
   By performing all computations locally, BetterLlama ensures that sensitive data remains on your hardware, minimizing exposure to external threats and enhancing data privacy.
 
 - **Cost Efficiency:**  
   The reduced computational overhead means that BetterLlama runs on less powerful hardware, saving money on monthly GenAI subscriptions and operational expenses.
 
-- **Optimized Performance:**  
-  The integration of knowledge distillation and fine-tuning ensures that the model maintains high-quality performance, even with a smaller footprint. The prompting layer further refines the output, delivering better and more context-aware results.
 
 ### Conclusion
 

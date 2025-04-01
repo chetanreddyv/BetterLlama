@@ -3,7 +3,7 @@ BetterLlama distills LLaMA 3.2 into a fast, lightweight local LLM. Fine-tuned on
 
 **BetterLlama: A Secure, Efficient, and Cost-Effective Local LLM**
 
-BetterLlama transforms the LLaMA 3.1 language model into a fast, lightweight, and highly accurate solution that runs on local hardware. By leveraging a combination of knowledge distillation, fine-tuning on synthetic data, and an innovative prompting layer, BetterLlama addresses the critical needs of performance, security, and cost savings.
+BetterLlama transforms the LLaMA 3.2 language model into a fast, lightweight, and highly accurate solution that runs on local hardware. By leveraging a combination of knowledge distillation, fine-tuning on synthetic data, and an innovative prompting layer, BetterLlama addresses the critical needs of performance, security, and cost savings.
 
 ### Key Components
 

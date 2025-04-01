@@ -1,5 +1,5 @@
 # BetterLlama
-BetterLlama distills LLaMA 3.2 into a fast, lightweight local LLM. Fine-tuned on synthetic daily-task data and enhanced with a smart prompt layer that refines queries, it delivers secure, optimized outputs while cutting costs and eliminating expensive monthly GenAI subscriptions.
+BetterLlama distills LLaMA 3.2 into a fast, lightweight local SLM. Resulting model is just 1B parameter model with the ability of reasoning. Fine-tuned on synthetic daily-task data and enhanced with a smart prompt layer that refines queries, it delivers secure, optimized outputs while cutting costs and eliminating expensive monthly GenAI subscriptions.
 
 **BetterLlama: A Secure, Efficient, and Cost-Effective Local LLM**
 

@@ -1,7 +1,6 @@
 learnings: Llama 3B 8bit quantized is better than Llama 1B full precision.
 
-Initially i fine tuned llama 1B model to give it the ability to think (step by step reasoning before answer),
-after a lot of testing I can see that model is not capturing complex pattern and is only good for basic tasks.
+Initially, I fine-tuned the Llama 1B model to enable it to think step by step before providing an answer. However, after extensive testing, I’ve realized that the model lacks the ability to grasp complex patterns and is only suitable for basic tasks.
 
 ### **1. Model Size & Memory Efficiency**
 - **Quantized 3B**: Even with 3× more parameters, quantization (e.g., 8-bit) reduces memory usage significantly. For example:
@@ -44,4 +43,4 @@ after a lot of testing I can see that model is not capturing complex pattern and
   - The task is simple and doesn’t require a large model.
 
 ### **Practical Step**
-- **Test Both**: Benchmark accuracy, latency, and memory usage on your specific task and hardware. For example, a quantized 3B model often matches or exceeds smaller full-precision models in real-world tasks (e.g., [Q8BERT](https://arxiv.org/abs/1910.06188) shows <1% accuracy drop after 8-bit quantization).
+- **Test Both**: Benchmark accuracy, latency, and memory usage on your specific task and hardware. For example, a quantized 3B model often matches or exceeds smaller full-precision models in real-world tasks (most models show <1% accuracy drop after 8-bit quantization).

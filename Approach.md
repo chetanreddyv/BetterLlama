@@ -1,4 +1,4 @@
-Refined workflow that integrates a warm-up phase for generic reasoning, dynamic curriculum training, and enhanced evaluation. This step‐by‐step guide outlines how to set up the model, prepare the data, progressively fine-tune with curriculum learning, and finally apply RLHF.
+Workflow that integrates a warm-up phase for generic reasoning, dynamic curriculum training, and enhanced evaluation. This step‐by‐step guide outlines how to set up the model, prepare the data, progressively fine-tune with curriculum learning, and finally apply RLHF.
 
 ---
 
@@ -51,7 +51,7 @@ for param in model.base_model.parameters():
   {role: user, content: "Your question here"}
   {role: assistant, content: "<think> reasoning steps </think> final answer"}
   ```
-
+Including {role: system, content: "Generate a step by step reasoning for this question."} explicitly in your training data is crucial if you want the model to learn when to reason vs when to just answer.
 **b. Tokenization**
 
 - Use the same tokenizer as the model.

@@ -74,7 +74,7 @@ tokenized_dataset = raw_dataset.map(tokenize_function, batched=True)
 
 **Objective:** Establish a broad foundation in chain-of-thought reasoning before specializing.
 
-- **Dataset:** Use a large, diverse set of generic reasoning examples.
+- **Dataset:** Use a large, diverse set of generic reasoning examples. KingNish/reasoning-base-20k: The dataset includes a wide range of problems from various domains (science, coding, math, etc.), each with a detailed chain of thought (COT) and the correct answer. 
 - **Benefits:** Helps the model learn CoT structure, which can later be refined with more specific problems.
 
 ```python

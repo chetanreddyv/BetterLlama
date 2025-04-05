@@ -186,7 +186,7 @@ for stage, dataset in enumerate(curriculum_datasets, start=1):
 ---
 
 ## 5. Reinforcement Learning Fine-Tuning (RLHF)
-
+Data for math answers in code reasoning-machines/gsm-hard
 **a. Setup RLHF with PPO**
 
 - **Load Last Checkpoint:** Use the final curriculum stage checkpoint.

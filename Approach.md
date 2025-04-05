@@ -52,6 +52,7 @@ for param in model.base_model.parameters():
   {role: assistant, content: "<think> reasoning steps </think> final answer"}
   ```
 Including {role: system, content: "Generate a step by step reasoning for this question."} explicitly in your training data is crucial if you want the model to learn when to reason vs when to just answer.
+
 **b. Tokenization**
 
 - Use the same tokenizer as the model.
